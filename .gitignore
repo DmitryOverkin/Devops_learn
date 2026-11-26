@@ -1,0 +1,27 @@
+# Виртуальные окружения
+venv/
+.venv/
+env/
+
+# Кэш Python и скомпилированные файлы
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Секреты и переменные окружения
+.env
+.env.*
+
+# Настройки редакторов и ОС
+.vscode/
+.idea/
+.DS_Store
+Thumbs.db
+
+# Сборки, тесты и локальные БД
+build/
+dist/
+*.egg-info/
+.pytest_cache/
+.coverage
+db.sqlite3
